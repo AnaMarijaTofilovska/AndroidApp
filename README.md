@@ -24,6 +24,7 @@ Click Run to build and test the app.
 
 📷 Screenshots 
 ![image](https://github.com/user-attachments/assets/66375abc-62e6-4aa9-9552-47968b8c9faa)
+![image](https://github.com/user-attachments/assets/55dcbb6e-bc86-4938-9d50-2ae8b782cbca)
 
 📩 Contact
 For any questions or improvements, feel free to reach out!
