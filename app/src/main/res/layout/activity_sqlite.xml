@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/primary_quiz"
+    tools:context=".SQLiteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="Enter you username"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbacground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:hint="Enter you password"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbacground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/repassword"
+        android:hint="Confirm your password"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittextbacground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/singup"
+        android:text="REGISTER HERE"
+        android:textSize="20dp"
+        android:backgroundTint="@color/pink"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/singin"
+        android:text="I HAVE AN ACCOUNT"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#00000000"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+
+</LinearLayout>
